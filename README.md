@@ -6,15 +6,15 @@ A complete [Typst template](https://typst.app/) for the [MSc Geomatics](http://g
 It contains all the parts that are required and is structured in such a way that most/all supervisors expect.
 Observe that the MSc Geomatics at TU Delft has no formal requirements, how the document looks like (fonts, margins, headers, etc) is entirely up to you. 
 
-It is basically a port to Typst of the [LaTeX template](https://github.com/tudelft3d/msc_geomatics_thesis_template), but it looks slightly different.
+It is basically a port to Typst of the award-winning [MSc Geomatics LaTeX template](https://github.com/tudelft3d/msc_geomatics_thesis_template), but it looks slightly different.
 
 > It is not an official template and it is not mandatory to use it.
+> But we hope it will encourage everyone to use Typst or LaTeX for writing their thesis, and we also hope that it will *discourage* some from using Word.
 
-But we hope it will encourage everyone to use Typst or LaTeX for writing their thesis, and we also hope that it will *discourage* some from using Word.
 
 ## What is Typst?
 
-It's the "new LaTeX": simpler to learn, simpler to modify the layout, 9423.6X faster.
+Typst is the "new LaTeX": simpler to learn, simpler to modify the layout, about 9423.6X faster.
 But also, at the moment, has fewer features, can be a bit buggy, the base code changes often (which can break some functions), etc. 
 
 So great to use, but be warned a bit...
@@ -34,7 +34,7 @@ If you're used to LaTeX, see the handy [Guide for LaTeX users](https://typst.app
 
 ## Which software to use?
 
-### Editors
+### Local editors
 
 If you want to work locally, then we strongly encourage you to use:
 
@@ -43,7 +43,11 @@ If you want to work locally, then we strongly encourage you to use:
 
 ![](./figs/vscode.png)
 
-The web-application is free, the rending in real-time works great, and it has collaboration tools integrated. The only potential drawback is that not all fonts are present
+
+### Web-application
+
+The web-application is free, the rending in real-time works great, and it has collaboration tools integrated. 
+The only potential drawback is that not all fonts are present; with a local installation you can use any fonts on your computer.
 
 * [Typst.app](https://typst.app/) 
 
@@ -60,6 +64,7 @@ BibTeX can be used, this is a good cross-platform one:
 * [IPE](http://ipe.otfried.org/) (cross-platform; integrates LaTeX text; great for triangulation and geometric stuff)
 * Adobe Illustrator (nice, but €€€)
 * [Inkscape](https://inkscape.org/en/) (cross-platform)
+
 
 ### Drawing flowcharts
 
