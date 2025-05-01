@@ -3,18 +3,17 @@
 #import "cover/cover_template.typ": cover
 
 //-- subfigure
-#import "@preview/subpar:0.2.0"
+#import "@preview/subpar:0.2.2"
 //-- admonitions
-#import "@preview/gentle-clues:1.0.0": *
+#import "@preview/gentle-clues:1.2.0": *
 //-- pseudo-code
 #import "@preview/lovelace:0.3.0": *
 //-- for the fancy headers
-#import "@preview/hydra:0.5.1": hydra
-//-- TODO
-#import "@preview/dashy-todo:0.0.1": todo
+#import "@preview/hydra:0.6.1": hydra
+//-- for the to-be-done things
+#import "@preview/dashy-todo:0.0.3": todo
 //-- PDF figures
-#import "@preview/muchpdf:0.1.0": muchpdf
-
+#import "@preview/muchpdf:0.1.1": muchpdf
 
 
 //-- natbib
@@ -31,7 +30,6 @@
 #let flex-caption(long, short) = context {   
   if in-outline.at(here()) { long } else { short }
 }
-
 
 
 //-- https://github.com/tingerrr/subpar/issues/16

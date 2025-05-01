@@ -1,4 +1,4 @@
-#import "@preview/ccicons:1.0.0": *
+#import "@preview/ccicons:1.0.1": *
 
 #let cover(
   title: "",
