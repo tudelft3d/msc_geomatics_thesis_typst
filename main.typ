@@ -74,7 +74,7 @@
       align(left, emph(hydra(2)))
     }
     // line(length: 100%)
-  }, 
+  },
   footer: context {
     if calc.even(here().page()) {
       align(left, counter(page).display("1"));

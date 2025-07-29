@@ -16,9 +16,10 @@
 #import "@preview/muchpdf:0.1.1": muchpdf
 
 
+
 //-- natbib
-#let citet= cite.with(form: "prose") 
-#let citep = cite 
+#let citet = cite.with(form: "prose")
+#let citep = cite
 
 //-- for outline of figures
 #let in-outline = state("in-outline", false)
@@ -27,7 +28,7 @@
   it
   in-outline.update(false)
 }
-#let flex-caption(long, short) = context {   
+#let flex-caption(long, short) = context {
   if in-outline.at(here()) { long } else { short }
 }
 
@@ -66,7 +67,7 @@
   )
   set par(justify: true)
 
-  
+
   let serif-fonts = ("TeX Gyre Pagella", "Palatino", "New Computer Modern") //-- https://www.1001fonts.com/tex-gyre-pagella-font.html
   let sans-fonts = ("TeX Gyre Heros", "Source Sans Pro", "Calibri")  //-- https://www.1001fonts.com/texgyreheros-font.html + https://github.com/adobe-fonts/source-sans-pro
   let math-font = ("Stix Two Math", "New Computer Modern Math")     //-- free: https://github.com/stipub/stixfonts
@@ -74,8 +75,8 @@
 
 
   set text(
-    font: serif-fonts, 
-    size: 11pt, 
+    font: serif-fonts,
+    size: 11pt,
   )
   show heading: set text(font: sans-fonts)
   show heading.where(level: 1): it => counter(figure.where(kind: image)).update(0) + it
@@ -96,7 +97,7 @@
     let h1 = counter(heading).get().first()
     numbering("(1.1)", h1, n)
   })
-  
+
   //-- raw font
   show raw: set text(font: mono-font)
 
@@ -113,17 +114,17 @@
   //     align(left, counter(page).display("1"));
   //   }
   // ))
-  
+
   // show figure.caption: emph
   // show figure.caption: it => [
   //   #text(font: sans-fonts)[
   //     #it.supplement
-  //     #context it.counter.display(it.numbering). #h(0.3em) 
+  //     #context it.counter.display(it.numbering). #h(0.3em)
   //     #it.body
   //   ]
   // ]
 
- 
+
   //-- cover pages
   cover(
     title: title,
