@@ -11,7 +11,6 @@ It is basically a port to Typst of the award-winning [MSc Geomatics LaTeX templa
 > It is not an official template and it is not mandatory to use it.
 > But we hope it will encourage everyone to use Typst or LaTeX for writing their thesis, and we also hope that it will *discourage* some from using Word.
 
-
 ## What is Typst?
 
 Typst is the "new LaTeX": simpler to learn, simpler to modify the layout, about 9423.6X faster.
@@ -43,6 +42,9 @@ If you want to work locally, then we strongly encourage you to use:
 
 ![](./figs/vscode.png)
 
+Alternatively, use your favourite text editor and in a shell `typst watch main.typ`, this will automatically recompile `main.pdf` on changes (this is faster than compiling from scratch each time because Typst has incremental compilation).
+You need to use a PDF viewer that supports this (Adobe does not), for macOS [Skim](https://skim-app.sourceforge.io/) is great.
+
 
 ### Web-application
 
@@ -68,4 +70,4 @@ BibTeX can be used, this is a good cross-platform one:
 
 ### Drawing flowcharts
 
-* [draw.io](https://www.draw.io/)  
+* [draw.io](https://www.draw.io/)
