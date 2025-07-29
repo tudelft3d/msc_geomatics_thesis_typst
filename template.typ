@@ -141,12 +141,12 @@
 
   body
 
-  pagebreak() 
+  pagebreak()
 
   align(bottom)[
-    This document was typeset using #link("https://typst.app")[Typst]. The main font is Palatino. 
-    The figures and diagrams were mostly drawn using IPE, PGF/Ti\emph{k}z and Omnigraffle. 
+    This document was typeset using #link("https://typst.app")[Typst], and uses the template freely available at https://github.com/tudelft3d/msc_geomatics_thesis_typst.
+    // The main font is Palatino.
+    // The figures and diagrams were mostly drawn using IPE, PGF/Ti\emph{k}z and Omnigraffle.
   ]
 
 }
-
