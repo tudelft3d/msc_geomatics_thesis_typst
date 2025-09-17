@@ -213,7 +213,7 @@ caption: [Some GML for a `gml:Solid`.],
 
 == TODOs
 
-At P4 or for earlier drafts, it might be good to let the readers know that some part need more work.
+At A3 or for earlier drafts, it might be good to let the readers know that some part need more work.
 Or that a figure will be added.
 
 The package #link("https://typst.app/universe/package/dashy-todo/") is perfect for this.
