@@ -219,8 +219,6 @@ Or that a figure will be added.
 The package #link("https://typst.app/universe/package/dashy-todo/") is perfect for this.
 #todo[make sure that the URL is correct :J]
 
-#todo[adding holders for figures is also possible]
+#todo(stroke: green)[TODOs can be any colours]
 
-A summary of all TODOs in the thesis can even be generated:
-
-
+A summary of all TODOs in the thesis can even be generated with an `#outline` command, see #ref(<all-todos>, form: "page") and the file `main.typ`.

@@ -11,7 +11,7 @@
 //-- for the fancy headers
 #import "@preview/hydra:0.6.1": hydra
 //-- for the to-be-done things
-#import "@preview/dashy-todo:0.0.3": todo
+#import "@preview/dashy-todo:0.1.2": todo
 //-- PDF figures
 #import "@preview/muchpdf:0.1.1": muchpdf
 

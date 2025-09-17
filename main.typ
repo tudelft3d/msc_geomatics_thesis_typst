@@ -58,7 +58,7 @@
   target: figure.where(kind: "algorithm"),
 )
 
-#outline(title: "TODOs", target: figure.where(kind: "todo"))
+#outline(title: "TODOs", target: figure.where(kind: "todo")) <all-todos>
 
 // page counter anchor
 #metadata(()) <front-matter>
