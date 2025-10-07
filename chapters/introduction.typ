@@ -90,6 +90,10 @@ And #citet(<Delaunay34>) did VoroCrust.
 + #citep(<Voronoi08>) \
 + #cite(label("Voronoi08"))
 
+To cite several papers for one sentence, just use several commands #citep(<Delaunay34>)#citep(<Voronoi08>).
+
+And #citet(<Delaunay34>, supplement: "p. 77") to specify a specific page, 
+
 == Footnotes 
 
 Footnotes are a good way to write text that is not essential for the understanding of the text #footnote[but please do not overuse them].
