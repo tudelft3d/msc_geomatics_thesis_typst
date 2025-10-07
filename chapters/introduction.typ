@@ -135,6 +135,14 @@ An example of a simple table is in @tab:example1.
   ) 
 )<tab:example1>
 
+❤️ You can even read directly from a CSV file this way:
+
+#let data = csv("../data/smth.csv")
+#table(
+  columns: 3,
+  ..data.flatten(),
+)
+
 == Plots
 
 The best way is to use #link("http://matplotlib.org")[matplotlib], or its more beautiful version #link("http://stanford.edu/~mwaskom/software/seaborn/index.html")[seaborn].
