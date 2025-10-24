@@ -3,8 +3,6 @@
 = Some UML diagrams
 
 #figure(
-  muchpdf(
-      read("../figs/someuml.pdf", encoding: none),
-    ),
+  image("../figs/someuml.pdf"),
   caption: [The UML diagram of something that looks important.],
 )<fig:someuml>

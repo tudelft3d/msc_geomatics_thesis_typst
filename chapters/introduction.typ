@@ -25,10 +25,8 @@ For a figure, you can also just use @fig:cat, but I guess you can qualify it wit
 
 == Figures <sec:figures>
 
-#warning[
-  At the moment (v0.13 of Typst), Typst supports natively figures in PNG, SVG, JPG, and GIF (with `#image()`).
-
-  With the package #link("https://github.com/frozolotl/muchpdf"), you can also insert directly PDF files, there is an example below.
+#info[
+  At the moment (v0.14 of Typst), Typst supports natively figures in PDF, PNG, SVG, JPG, and GIF (with `#image()`).
 ]
 
 @fig:sometriangles is a simple figure in PNG format, notice the use of `placement: auto` to put the figure at the best place possible (top or bottom, Typst decides for you).
@@ -45,24 +43,15 @@ As shown in @fig:cat, it is possible to have two figures (or more) side by side.
 You can also refer to a _subfigure_: see @fig:cat:b.
 #subpar-grid(
   figure(
-    muchpdf(
-      read("../figs/tricat.pdf", encoding: none),
-      pages: 0,
-    ),
+    image("../figs/tricat.pdf", page: 1),
     caption: [],
   ), <fig:cat:a>,
   figure(
-    muchpdf(
-      read("../figs/tricat.pdf", encoding: none),
-      pages: 1,
-    ), 
+    image("../figs/tricat.pdf", page: 2), 
     caption: [],
   ), <fig:cat:b>,
   figure(
-    muchpdf(
-      read("../figs/tricat.pdf", encoding: none),
-      pages: 2,
-    ), 
+    image("../figs/tricat.pdf", page: 3), 
     caption: [],
   ), <fig:cat:c>,
   columns: (1fr, 1fr, 1fr),
