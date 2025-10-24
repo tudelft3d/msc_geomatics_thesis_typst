@@ -90,9 +90,23 @@ And #citet(<Delaunay34>) did VoroCrust.
 + #citep(<Voronoi08>) \
 + #cite(label("Voronoi08"))
 
-To cite several papers for one sentence, just use several commands #citep(<Delaunay34>)#citep(<Voronoi08>).
+To cite several papers for one sentence, just use several commands #citep(<Delaunay34>)#citep(<Aurenhammer12>).
+And #citet(<Delaunay34>, supplement: "p. 77") to specify a specific page.
 
-And #citet(<Delaunay34>, supplement: "p. 77") to specify a specific page, 
+When adding references to your BibTeX file, it is good pratice to add the DOI of the paper.
+For example, for a paper:
+```bibtex
+@book{Aurenhammer12,
+  author = {Aurenhammer, Franz and Klein, Rolf and Lee, Der-Tsai},
+  doi = {10.1142/8685},
+  publisher = {World Scientific},
+  title = {Voronoi diagrams and {D}elaunay triangulations},
+  year = {2012}
+}
+```
+
+Notice that if you use the field `doi` you shouldn't append `http://doi.org/`.
+If you do this then you'll have clickable DOIs in your list of references. 
 
 == Footnotes 
 
