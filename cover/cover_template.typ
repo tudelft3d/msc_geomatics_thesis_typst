@@ -51,7 +51,7 @@
         )      
       ] else [
         #grid.cell(
-          image("../figs/GDMC-LOGO12.jpg", width: 50%),
+          image("../figs/gdmc_logo.png", width: 50%),
         )
       ],
       grid.cell([#graduation-group #linebreak() Delft University of Technology])
