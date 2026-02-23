@@ -103,4 +103,4 @@
 #include "appendices/someumldia.typ"
 
 //-- references
-#bibliography("/refs.bib", style: "apa")
+#bibliography("./refs/refs.bib", style: "./refs/apa-annotated-bibliography_modified-HL.csl")

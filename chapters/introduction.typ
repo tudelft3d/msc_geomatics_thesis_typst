@@ -69,9 +69,7 @@ You can also refer to a _subfigure_: see @fig:cat:b.
 
 We know from #citet(<Descartes37>) that this can be done, and others have done that too @Descartes37.
 
-And #citet(<Delaunay34>) did VoroCrust.
-
-// We know from #cite(<Hawker22>, form: "prose") that this can done, and others have done that too #cite(<Esch22>, form: "year").
+And #citet(<vanKreveld96>) did write nice papers, and others too @Campen12.
 
 // All the same
 + @Voronoi08 \
@@ -79,8 +77,8 @@ And #citet(<Delaunay34>) did VoroCrust.
 + #citep(<Voronoi08>) \
 + #cite(label("Voronoi08"))
 
-To cite several papers for one sentence, just use several commands #citep(<Delaunay34>)#citep(<Aurenhammer12>).
-And #citet(<Delaunay34>, supplement: "p. 77") to specify a specific page.
+To cite several papers for one sentence, just chain commands together #citep(<Delaunay34>)#citep(<Aurenhammer12>).
+And #citet(<Delaunay34>, supplement: "p. 77") to specify a specific page, and #cite(<Aurenhammer12>, form: "year") just to add the year.
 
 When adding references to your BibTeX file, it is good pratice to add the DOI of the paper.
 For example, for a paper:
@@ -94,8 +92,9 @@ For example, for a paper:
 }
 ```
 
-Notice that if you use the field `doi` you shouldn't append `http://doi.org/`.
+Notice that if you use the field `doi` you shouldn't append `http://doi.org/` (the full DOI being http://doi.org/10.1142/8685).
 If you do this then you'll have clickable DOIs in your list of references. 
+
 
 == Footnotes 
 
